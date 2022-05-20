@@ -1,3 +1,13 @@
-const IndexPage = () => <h1>Hello Next.js 👋</h1>
+import Cart from "../src/sections/cart";
+import Details from "../src/sections/details";
 
-export default IndexPage
+const IndexPage = () => {
+  return (
+    <div style={{ display: "flex" }}>
+      <Details />
+      <Cart />
+    </div>
+  );
+};
+
+export default IndexPage;
